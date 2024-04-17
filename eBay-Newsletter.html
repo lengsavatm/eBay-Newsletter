@@ -58,10 +58,8 @@
     <![endif]-->
   <!--[if !mso]><!-->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
   <style type="text/css">
     @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700);
-    @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
   </style>
   <!--<![endif]-->
   <style type="text/css">
@@ -100,14 +98,116 @@
     }
   </style>
   <style type="text/css">
+    /* DARK MODE */
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .mj-body {
+        background-color: #939393 !important;
+        background-image: linear-gradient(#939393, #939393) !important;
+      }
+
+      .dark-mode-bg>table {
+        background: #272727 !important;
+        background-image: linear-gradient(#272727, #272727) !important;
+      }
+
+      .dark-mode-hero-bg>table {
+        background: #3d3d3d !important;
+        background-image: linear-gradient(#3d3d3d, #3d3d3d) !important;
+      }
+
+      .dark-mode-callout {
+        background: #272727 !important;
+        background-image: linear-gradient(#272727, #272727) !important;
+      }
+
+      .dark-mode-social-bg>table {
+        background: #3d3d3d !important;
+        background-image: linear-gradient(#3d3d3d, #3d3d3d) !important;
+      }
+
+      .dark-mode-text {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+      }
+
+      .dark-mode-hero-text {
+        color: #fec800 !important;
+        -webkit-text-fill-color: #fec800 !important;
+      }
+
+      .dark-mode-CTA-text {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+      }
+
+      .dark-mode-CTA {
+        background: #f5f5f5 !important;
+        background-image: linear-gradient(#f5f5f5, #f5f5f5) !important;
+      }
+
+      /* Shows Dark Mode-Only Content, Like Images */
+      .dark-img {
+        display: block !important;
+      }
+
+      /* Hides Light Mode-Only Content, Like Images */
+      .light-img {
+        display: none !important;
+      }
+
+      .dark-mode-mark {
+        background-color: #93C9FF !important;
+      }
+    }
+
+    [data-ogsb] .dark-mode-mark {
+      background: #93C9FF !important;
+    }
+
+    [data-ogsb] .dark-mode-bg>table {
+      background: #1E1E1F !important;
+    }
+
+    [data-ogsb] .dark-mode-hero-bg>table {
+      background: #272727 !important;
+    }
+
+    [data-ogsb] .dark-mode-CTA {
+      background: #000000 !important;
+    }
+
+    [data-ogsb] .dark-mode-callout {
+      background: #000000 !important;
+    }
+
+    [data-ogsb] .dark-mode-social-bg>table {
+      background: #272727 !important;
+    }
+
+    [data-ogsc] .dark-mode-text {
+      color: #ffffff !important;
+    }
+
+    [data-ogsc] .dark-mode-hero-text {
+      color: #fec800 !important;
+    }
+
+    [data-ogsc] .dark-mode-CTA-text {
+      color: #ffffff !important;
+    }
   </style>
-  <meta name="color-scheme" content="light">
-  <meta name="supported-color-schemes" content="light">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
 </head>
 
 <body style="word-spacing:normal;background-color:#EBEBEB;">
   <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> Check out the Winter 2024 Seller Update! &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp; </div>
-  <div style="background-color:#EBEBEB;">
+  <div class="mj-body" style="background-color:#EBEBEB;">
     <!-- Top Two Columns -->
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#93C9FF" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="background:#93C9FF;background-color:#93C9FF;margin:0px auto;max-width:600px;">
@@ -194,8 +294,8 @@
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- end Two Columns -->
     <!-- NewsLetter Start -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#FFFFFF" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-bg-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#FFFFFF" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode-bg" style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
         <tbody>
           <tr>
@@ -209,8 +309,8 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="left" style="font-size:0px;padding:30px 15px 15px;word-break:break-word;">
-                                <div style="font-family:Roboto, Arial, sans-serif;font-size:14px;font-weight:400;line-height:20px;text-align:left;color:#000000;">This winter, we’re rolling out new and enhanced features to help you reach more buyers, improve your sales, and protect your business.<br><br> To start, we're bringing new capabilities to your Active Listings page to help you expand your reach and sell more efficiently. <span style="background-color: #FFFF00">eBay</span> Store subscribers can now create sale events directly from the Active Listings page, and all sellers will benefit from new "sell it faster" recommendations.<br><br> To help you sell with greater peace of mind, we’ve also added enhanced security features for you and your employees, extended resolutions for unpaid items to seller-initiated offers, and increased the length of time your draft listings are saved.<br><br> Finally, as we continue to invest in our marketplace to ensure you have the resources you need to grow your business and increase buyer reach, increasing costs in the market have made it necessary for us to adjust our per-order fee.<br><br> Click the link below to learn about the news, enhancements, and features we’re showcasing this winter.</div>
+                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:30px 15px 15px;word-break:break-word;">
+                                <div style="font-family:Roboto, Arial, sans-serif;font-size:14px;font-weight:400;line-height:20px;text-align:left;color:#000000;">This winter, we’re rolling out new and enhanced features to help you reach more buyers, improve your sales, and protect your business.<br><br> To start, we're bringing new capabilities to your Active Listings page to help you expand your reach and sell more efficiently. <span style="background-color: #FFFF00" class="dark-mode-mark">eBay</span> Store subscribers can now create sale events directly from the Active Listings page, and all sellers will benefit from new "sell it faster" recommendations.<br><br> To help you sell with greater peace of mind, we’ve also added enhanced security features for you and your employees, extended resolutions for unpaid items to seller-initiated offers, and increased the length of time your draft listings are saved.<br><br> Finally, as we continue to invest in our marketplace to ensure you have the resources you need to grow your business and increase buyer reach, increasing costs in the market have made it necessary for us to adjust our per-order fee.<br><br> Click the link below to learn about the news, enhancements, and features we’re showcasing this winter.</div>
                               </td>
                             </tr>
                           </tbody>
@@ -229,8 +329,8 @@
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- NewsLetter end -->
     <!-- Call to action -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-bg-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode-bg" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
@@ -244,16 +344,18 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:145px;line-height:100%;">
-                                  <tbody>
+                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                <div style="font-family:Roboto, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#121258;">
+                                  <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse: collapse;">
                                     <tr>
-                                      <td align="center" bgcolor="#3665F3" role="presentation" style="border:none;border-radius:20px;cursor:auto;height:48px;mso-padding-alt:10px 25px;background:#3665F3;" valign="middle">
-                                        <a href="https://www.ebay.com/sellercenter/resources/seller-updates/2024-winter?mkevt=1&mkpid=2&emsid=0&mkcid=8&bu=45047417075&osub=dee0b8ebeab62e30e4aa434c528894c7%257EUS_T&segname=1707835113217EM_US_T&crd=20240216000000&ch=osgood" style="display:inline-block;width:95px;background:#3665F3;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:14px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:20px;" target="_blank"> Read the news </a>
+                                      <td align="center" style="padding: 10px 0 10px;">
+                                        <div>
+                                          <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.ebay.com/sellercenter/resources/seller-updates/2024-winter?mkevt=1&mkpid=2&emsid=0&mkcid=8&bu=45047417075&osub=dee0b8ebeab62e30e4aa434c528894c7%257EUS_T&segname=1707835113217EM_US_T&crd=20240216000000&ch=osgood" style="height:40px;v-text-anchor:middle;width:145px;" arcsize="50%" strokecolor="#3665f3" fillcolor="#3665f3"><w:anchorlock/><center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">Read The News</center></v:roundrect><![endif]--><a href="https://www.ebay.com/sellercenter/resources/seller-updates/2024-winter?mkevt=1&mkpid=2&emsid=0&mkcid=8&bu=45047417075&osub=dee0b8ebeab62e30e4aa434c528894c7%257EUS_T&segname=1707835113217EM_US_T&crd=20240216000000&ch=osgood" style="background-color:#3665f3;border:1px solid #3665f3;border-radius:20px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:145px;-webkit-text-size-adjust:none;mso-hide:all;" class="dark-mode-CTA-text">Read The News</a>
+                                        </div>
                                       </td>
                                     </tr>
-                                  </tbody>
-                                </table>
+                                  </table>
+                                </div>
                               </td>
                             </tr>
                           </tbody>
@@ -272,8 +374,8 @@
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Call to action end -->
     <!-- Thank You statement -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-bg-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode-bg" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
@@ -287,8 +389,8 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="center" style="font-size:0px;padding:0 15px 40px;word-break:break-word;">
-                                <div style="font-family:Roboto, Arial, sans-serif;font-size:14px;font-weight:400;line-height:20px;text-align:center;color:#000000;">Thanks for being part of the <span style="background-color: #FFFF00;">eBay</span> community.</div>
+                              <td align="center" class="dark-mode-text" style="font-size:0px;padding:0 15px 40px;word-break:break-word;">
+                                <div style="font-family:Roboto, Arial, sans-serif;font-size:14px;font-weight:400;line-height:20px;text-align:center;color:#000000;">Thanks for being part of the <span style="background-color: #FFFF00;" class="dark-mode-mark">eBay</span> community.</div>
                               </td>
                             </tr>
                           </tbody>
@@ -307,8 +409,8 @@
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Thank you statement -->
     <!-- Contact Start -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#F5F5F5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#F5F5F5;background-color:#F5F5F5;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-social-bg-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#F5F5F5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode-social-bg" style="background:#F5F5F5;background-color:#F5F5F5;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#F5F5F5;background-color:#F5F5F5;width:100%;">
         <tbody>
           <tr>
@@ -322,7 +424,7 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="center" style="font-size:0px;padding:0;padding-top:10px;word-break:break-word;">
+                              <td align="center" class="dark-mode-text" style="font-size:0px;padding:0;padding-top:10px;word-break:break-word;">
                                 <div style="font-family:Roboto, Arial, sans-serif;font-size:14px;font-weight:400;line-height:20px;text-align:center;color:#000000;"><a style="text-decoration: underline; color: #000000" href="https://www.ebay.com/sellercenter?bu=45047417075&ch=osgood&crd=20240216000000&emsid=0&mkcid=8&mkevt=1&mkpid=2&osub=dee0b8ebeab62e30e4aa434c528894c7%25257EUS_T&segname=1707835113217EM_US_T" target="_blank">Seller Center</a></div>
                               </td>
                             </tr>
@@ -342,8 +444,8 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="center" style="font-size:0px;padding:0;padding-top:10px;word-break:break-word;">
-                                <div style="font-family:Roboto, Arial, sans-serif;font-size:14px;font-weight:400;line-height:20px;text-align:center;color:#000000;"><a style="text-decoration: underline;color:#000000;" href="https://www.ebayadservices.com/marketingtracking/v1/redirect?mpre=https%3A%2F%2Fcommunity.ebay.com%2F&mkevt=1&mkpid=2&emsid=0&mkcid=8&bu=45047417075&osub=dee0b8ebeab62e30e4aa434c528894c7%257EUS_T&segname=1707835113217EM_US_T&crd=20240216000000&ch=osgood" target="_blank">The <span style="background-color: #FFFF00;">eBay</span>Community</a></div>
+                              <td align="center" class="dark-mode-text" style="font-size:0px;padding:0;padding-top:10px;word-break:break-word;">
+                                <div style="font-family:Roboto, Arial, sans-serif;font-size:14px;font-weight:400;line-height:20px;text-align:center;color:#000000;"><a style="text-decoration: underline;color:#000000;" href="https://www.ebayadservices.com/marketingtracking/v1/redirect?mpre=https%3A%2F%2Fcommunity.ebay.com%2F&mkevt=1&mkpid=2&emsid=0&mkcid=8&bu=45047417075&osub=dee0b8ebeab62e30e4aa434c528894c7%257EUS_T&segname=1707835113217EM_US_T&crd=20240216000000&ch=osgood" target="_blank">The <span style="background-color: #FFFF00;" class="dark-mode-mark">eBay</span>Community</a></div>
                               </td>
                             </tr>
                           </tbody>
@@ -362,8 +464,8 @@
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Contact End -->
     <!-- Divider -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#F5F5F5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#F5F5F5;background-color:#F5F5F5;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-social-bg-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#F5F5F5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode-social-bg" style="background:#F5F5F5;background-color:#F5F5F5;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#F5F5F5;background-color:#F5F5F5;width:100%;">
         <tbody>
           <tr>
@@ -399,8 +501,8 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Footer Section logo -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#F5F5F5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#F5F5F5;background-color:#F5F5F5;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-social-bg-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#F5F5F5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode-social-bg" style="background:#F5F5F5;background-color:#F5F5F5;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#F5F5F5;background-color:#F5F5F5;width:100%;">
         <tbody>
           <tr>
@@ -444,8 +546,8 @@
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Footer logo End -->
     <!-- Footer text start -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#F5F5F5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#F5F5F5;background-color:#F5F5F5;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-social-bg-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#F5F5F5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode-social-bg" style="background:#F5F5F5;background-color:#F5F5F5;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#F5F5F5;background-color:#F5F5F5;width:100%;">
         <tbody>
           <tr>
@@ -455,14 +557,14 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:30px 15px 35px;">
+                      <td style="vertical-align:top;padding:15px 15px 35px;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
                               <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
                                 <div style="font-family:Roboto, Arial, sans-serif;font-size:12px;font-weight:400;line-height:18px;text-align:left;color:#767676;"><a style="text-decoration: underline; color: #767676;" href="https://www.ebay.com/help/account/protecting-account/recognising-spoof-emails?id=4195" target="_blank">Learn more</a> to protect yourself from spoof (fake) e-mails.<br><br>
-                                  <span style="background-color: #FFFF00;">eBay</span> sent this e‑mail to you at <span style="text-decoration: underline;color: #767676;">jamjamfake@email.com</span> about your account registered on <span style="background-color: #FFFF00;">eBay</span>.com.<br><br>
-                                  <span style="background-color: #FFFF00;">eBay</span> will periodically send e‑mails to you about the site and your transactions. Visit our <a target="_blank" style="text-decoration: underline;color: #767676;" href="https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260">User Privacy Notice</a> and <a target="_blank" style="text-decoration: underline;color: #767676;" href="https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259">User Agreement</a> if you have any questions.<br><br> © 2024 <span style="background-color: #FFFF00;">eBay</span> Inc. All Rights Reserved. Designated trademarks and brands are the property of their respective owners. <span style="background-color: #FFFF00;">eBay</span> and the <span style="background-color: #FFFF00;">eBay</span> logo are trademarks of <span style="background-color: #FFFF00;">eBay</span> Inc. 2025 Hamilton Avenue, San Jose, CA 95125.
+                                  <span style="background-color: #FFFF00;" class="dark-mode-mark">eBay</span> sent this e‑mail to you at <span style="text-decoration: underline;color: #767676;">jamjamfake@email.com</span> about your account registered on <span style="background-color: #FFFF00;" class="dark-mode-mark">eBay</span>.com.<br><br>
+                                  <span style="background-color: #FFFF00;" class="dark-mode-mark">eBay</span> will periodically send e‑mails to you about the site and your transactions. Visit our <a target="_blank" style="text-decoration: underline;color: #767676;" href="https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260">User Privacy Notice</a> and <a target="_blank" style="text-decoration: underline;color: #767676;" href="https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259">User Agreement</a> if you have any questions.<br><br> © 2024 <span style="background-color: #FFFF00;" class="dark-mode-mark">eBay</span> Inc. All Rights Reserved. Designated trademarks and brands are the property of their respective owners. <span style="background-color: #FFFF00;" class="dark-mode-mark">eBay</span> and the <span style="background-color: #FFFF00;" class="dark-mode-mark">eBay</span> logo are trademarks of <span style="background-color: #FFFF00;" class="dark-mode-mark">eBay</span> Inc. 2025 Hamilton Avenue, San Jose, CA 95125.
                                 </div>
                               </td>
                             </tr>
